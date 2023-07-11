@@ -1,0 +1,61 @@
+/* common shared styles */
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    color: #E55473;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 41px;
+    border: 0;
+}
+
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 160px;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+
+/* banner styles */
+.header-banner {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+    padding: 50px 240px 0;
+}
+.banner-content{
+    margin-bottom: 100px;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    line-height: 30px;
+    margin: 0 0 32px;
+    margin-right: 70px;
+}
