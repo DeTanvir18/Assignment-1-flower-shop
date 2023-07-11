@@ -34,7 +34,7 @@ body {
 }
 
 .featured-flowers,
-.services-and-support, .extra, .instagram {
+.services-and-support, .extra, .instagram, .latest-deals {
     max-width: 1440px;
     margin: auto;
 }
@@ -175,4 +175,15 @@ body {
     display: flex;
     gap: 24px;
     margin-bottom: 128px;
+}
+
+
+/* latest deals section styles */
+.latest-deals-content{
+    text-align: center;
+    background-image: url(../images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 120px 287px;
 }
