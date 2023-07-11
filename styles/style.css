@@ -34,7 +34,7 @@ body {
 }
 
 .featured-flowers,
-.services-and-support {
+.services-and-support, .extra {
     max-width: 1440px;
     margin: auto;
 }
@@ -153,4 +153,17 @@ body {
     color: rgba(39, 39, 39, 0.60);
     font-size: 19px;
     margin: 0 0 24px;
+}
+
+
+/* extra section styles */
+.extra-section-container{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin: 130px auto;
+    padding: 20px;
 }
