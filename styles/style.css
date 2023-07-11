@@ -192,10 +192,11 @@ body {
     padding: 120px 260px;
 }
 
-.latest-deals-content h3{
+.latest-deals-content h3 {
     margin-top: 0;
 }
-.latest-deals-content form{
+
+.latest-deals-content form {
     display: flex;
     gap: 16px;
     justify-content: center;
@@ -210,4 +211,25 @@ body {
     border-radius: 8px;
     background: #FFF;
     padding-left: 22px;
+}
+
+
+/* footer styles */
+.footer-content {
+    color: #FFF;
+    text-align: center;
+    padding: 128px 648px;
+    background: #111010;
+    border-radius: 5px;
+}
+
+.footer-title {
+    font-size: 48px;
+    font-style: normal;
+    margin-bottom: 24px;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.40);
+    margin-top: 32px;
 }
