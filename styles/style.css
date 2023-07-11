@@ -124,3 +124,33 @@ body {
     font-weight: 600;
     line-height: 35px;
 }
+
+
+/* hot deals section styles */
+.hot-deals-container {
+    display: flex;
+    gap: 190px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 100px 350px;
+}
+
+.hot-deals-content {
+    text-align: center;
+    margin: 130px 0 100px;
+}
+
+.hot-deals-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0 0 24px;
+}
+
+.hot-deals-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 19px;
+    margin: 0 0 24px;
+}
