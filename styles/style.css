@@ -34,7 +34,7 @@ body {
 }
 
 .featured-flowers,
-.services-and-support, .extra {
+.services-and-support, .extra, .instagram {
     max-width: 1440px;
     margin: auto;
 }
@@ -166,4 +166,13 @@ body {
     background: rgba(229, 84, 115, 0.05);
     margin: 130px auto;
     padding: 20px;
+}
+
+
+
+/* instagram section styles */
+.insta-images-container{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 128px;
 }
